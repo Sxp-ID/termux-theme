@@ -5,7 +5,7 @@ install:
 	apt-get install bash curl wget jq
 	apt-get install python python-pip
 	apt-get install clang ncurses-utils bc
-	apt-get install lsd bat neofetch nano ruby
+	apt-get install lsd bat neofetch nano ruby figlet
 	python -m pip install -r data/requirements.txt
 	@gcc main.c -o main
 	@clear
